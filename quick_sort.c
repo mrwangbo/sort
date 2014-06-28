@@ -22,7 +22,7 @@
      {   
          do{ 
              i++;
-         } while (i <= right && a[i] < key);
+         } while (i <= right && a[i] <= key);
  
          do{ 
              j--;
